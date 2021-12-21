@@ -1,3 +1,9 @@
-export const initialState = {
-  counter : 0
+export interface CounterStateI {
+  counter: number,
+  channelName: string;
+}
+
+export const initialState: CounterStateI = {
+  counter : 0,
+  channelName: 'Tripurari'
 }
